@@ -1,0 +1,348 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<title>Стартовый шаблон</title>
+	
+	<link rel="stylesheet" href="./css/main.css" />
+</head>
+
+<body>
+	<header class="header">
+    <div class="container">
+        <div class="header-inner">
+            <div class="header-row">
+                <div class="logo">Panto</div>
+                <nav class="menu">
+                    <ul class="main-menu">
+                        <li class="main-menu__item">
+                            <div class="main-menu__item-link">
+                                Furniture
+                                <button class="drop-menu-btn">
+                                    <img src="../../img/icons/Vector.svg" alt="">
+                                </button>
+                                <ul class="sub-menu">
+                                    <li class="sub-menu__item"><a class="sub-menu__item-link" href="#">Chair</a></li>
+                                    <li class="sub-menu__item"><a class="sub-menu__item-link" href="#">Beds</a></li>
+                                    <li class="sub-menu__item"><a class="sub-menu__item-link" href="#">Sofa</a></li>
+                                    <li class="sub-menu__item"><a class="sub-menu__item-link" href="#">Lamp</a></li>
+                                </ul>
+                            </div>
+                        </li>
+                        <li class="main-menu__item"><a class="main-menu__item-link" href="#">Shop</a></li>
+                        <li class="main-menu__item"><a class="main-menu__item-link" href="#">About Us</a></li>
+                        <li class="main-menu__item"><a class="main-menu__item-link" href="#">Contact</a></li>
+                    </ul>
+                    <button class="mobile-nav-btn">
+                        <div class="nav-icon"></div>
+                    </button>
+                </nav>
+                <div class="basket">
+                    <img src="../../img/icons/bag.svg" alt="">
+                    <div class="purchase-count">0</div>
+                </div>
+            </div>
+            <div class="header__middle">
+                <h1 class="middle-title">Make your interior more
+                    minimalistic & modern</h1>
+                <p class="middle-text">Turn your room with panto into a lot more minimalist and modern with ease and speed</p>
+                <div class="header-search">
+                    <form class="search-form" action="#">
+                        <input type="text" placeholder="Search furniture">
+                        <button class="search-btn" type="submit">
+                            <img src="../../img/icons/search.svg" alt="search">
+                        </button>
+                    </form>
+                </div>
+            </div>
+        </div>
+        <!-- <div class="header__row">
+            <div class="logo">Logo</div>
+            <button class="mobile-nav-btn">
+                <div class="nav-icon"></div>
+            </button>
+        </div> -->
+    </div>
+</header>
+<div class="mobile-nav">
+	<ul class="mobile-nav__list">
+		<li><a href="#" class="active">Home</a></li>
+		<li><a href="#!">Services</a></li>
+		<li><a href="#!">About</a></li>
+		<li><a href="#!">Projects</a></li>
+		<li><a href="#!">Contact</a></li>
+	</ul>
+</div>
+
+	<section class="choosing">
+    <div class="container">
+        <div class="choosing-inner">
+            <h2 class="title a">Why Choosing Us</h2>
+            <div class="choosing-item b">
+                <div class="choosing-item__title">Luxury facilities</div>
+                <div class="choosing-item__text">The advantage of hiring a workspace with us is that givees you comfortable service and all-around facilities.</div>
+                <div class="choosing-item__btn">
+                    <a href="#">
+                        More
+                        <img src="../img/icons/grommet-icons_form-next-link-gold.svg" alt="">
+                    </a>
+                </div>
+            </div>
+            <div class="choosing-item c">
+                <div class="choosing-item__title">Affordable Price</div>
+                <div class="choosing-item__text">You can get a workspace of the highst quality at an affordable price and still enjoy the facilities that are oly here.</div>
+                <div class="choosing-item__btn">
+                    <a href="#">
+                        More
+                        <img src="../img/icons/grommet-icons_form-next-link-gold.svg" alt="">
+                    </a>
+                </div>
+            </div>
+            <div class="choosing-item d">
+                <div class="choosing-item__title">Many Choices</div>
+                <div class="choosing-item__text">We provide many unique work space choices so that you can choose the workspace to your liking.</div>
+                <div class="choosing-item__btn">
+                    <a href="#">
+                        More
+                        <img src="../img/icons/grommet-icons_form-next-link-gold.svg" alt="">
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+	<section class="products">
+    <div class="container">
+        <div class="products-inner">
+            <h3 class="title">Best Selling Product</h3>
+            <div class="sort-products">
+                <input class="none" type="radio" name="radio" id="chair" checked="true">
+                <label class="label-radio" for="chair">Chair</label>
+                <input class="none" type="radio" name="radio" id="beds">
+                <label class="label-radio" for="beds">Beds</label>
+                <input class="none" type="radio" name="radio" id="sofa">
+                <label class="label-radio" for="sofa">Sofa</label>
+                <input class="none" type="radio" name="radio" id="lamp">
+                <label class="label-radio" for="lamp">Lamp</label>
+            </div>
+            <div class="product-cards">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                        <div class="card-item">
+                            <div class="card-photo">
+                                <img src="../../img/chair-01.png" alt="">
+                            </div>
+
+                            <div class="card-about">
+                                <p class="directory">Chair</p>
+                                <p class="card-title">Sakarias Armchair</p>
+                                <div class="stars">
+                                    <img src="../../img/icons/Star.svg" alt="star">
+                                    <img src="../../img/icons/Star.svg" alt="star">
+                                    <img src="../../img/icons/Star.svg" alt="star">
+                                    <img src="../../img/icons/Star.svg" alt="star">
+                                    <img src="../../img/icons/Star.svg" alt="star">
+                                </div>
+                                <div class="card-bottom">
+                                    <div class="card-price"><span>$</span>392</div>
+                                    <button class="card-btn">
+                                        <img src="../../img/icons/plus.svg" alt="plusbtn">
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="swiper-slide">
+                        <div class="card-item">
+                            <div class="card-photo">
+                                <img src="../../img/chair-02.png" alt="">
+                            </div>
+
+                            <div class="card-about">
+                                <p class="directory">Chair</p>
+                                <p class="card-title">Baltsar Chair</p>
+                                <div class="stars">
+                                    <img src="../../img/icons/Star.svg" alt="star">
+                                    <img src="../../img/icons/Star.svg" alt="star">
+                                    <img src="../../img/icons/Star.svg" alt="star">
+                                    <img src="../../img/icons/Star.svg" alt="star">
+                                </div>
+                                <div class="card-bottom">
+                                    <div class="card-price"><span>$</span>299</div>
+                                    <button class="card-btn">
+                                        <img src="../../img/icons/plus.svg" alt="plusbtn">
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <div class="swiper-slide">
+                        <div class="card-item">
+                            <div class="card-photo">
+                                <img src="../../img/chair-03.png" alt="">
+                            </div>
+                            <div class="card-about">
+                                <p class="directory">Chair</p>
+                                <p class="card-title">Anjay Chair</p>
+                                <div class="stars">
+                                    <img src="../../img/icons/Star.svg" alt="star">
+                                    <img src="../../img/icons/Star.svg" alt="star">
+                                    <img src="../../img/icons/Star.svg" alt="star">
+                                    <img src="../../img/icons/Star.svg" alt="star">
+                                    <img src="../../img/icons/Star.svg" alt="star">
+                                </div>
+                                <div class="card-bottom">
+                                    <div class="card-price"><span>$</span>591</div>
+                                    <button class="card-btn">
+                                        <img src="../../img/icons/plus.svg" alt="plusbtn">
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <div class="swiper-slide">
+                        <div class="card-item">
+                            <div class="card-photo">
+                                <img src="../../img/chair-04.png" alt="">
+                            </div>
+
+                            <div class="card-about">
+                                <p class="directory">Chair</p>
+                                <p class="card-title">Nyantuy Chair</p>
+                                <div class="stars">
+                                    <img src="../../img/icons/Star.svg" alt="star">
+                                    <img src="../../img/icons/Star.svg" alt="star">
+                                    <img src="../../img/icons/Star.svg" alt="star">
+                                    <img src="../../img/icons/Star.svg" alt="star">
+                                    <img src="../../img/icons/Star.svg" alt="star">
+                                </div>
+                                <div class="card-bottom">
+                                    <div class="card-price"><span>$</span>591</div>
+                                    <button class="card-btn">
+                                        <img src="../../img/icons/plus.svg" alt="plusbtn">
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <div class="swiper-slide">
+                        <div class="card-item">
+                            <div class="card-photo">
+                                <img src="../../img/chair-04.png" alt="">
+                            </div>
+
+                            <div class="card-about">
+                                <p class="directory">Chair</p>
+                                <p class="card-title">Nyantuy Chair</p>
+                                <div class="stars">
+                                    <img src="../../img/icons/Star.svg" alt="star">
+                                    <img src="../../img/icons/Star.svg" alt="star">
+                                    <img src="../../img/icons/Star.svg" alt="star">
+                                    <img src="../../img/icons/Star.svg" alt="star">
+                                    <img src="../../img/icons/Star.svg" alt="star">
+                                </div>
+                                <div class="card-bottom">
+                                    <div class="card-price"><span>$</span>392</div>
+                                    <button class="card-btn">
+                                        <img src="../../img/icons/plus.svg" alt="plusbtn">
+                                    </button>
+                                </div>
+
+
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="swiper-slide">
+                        <div class="card-item">
+                            <div class="card-photo">
+                                <img src="../../img/chair-04.png" alt="">
+                            </div>
+
+                            <div class="card-about">
+                                <p class="directory">Chair</p>
+                                <p class="card-title">Nyantuy Chair</p>
+                                <div class="stars">
+                                    <img src="../../img/icons/Star.svg" alt="star">
+                                    <img src="../../img/icons/Star.svg" alt="star">
+                                    <img src="../../img/icons/Star.svg" alt="star">
+                                    <img src="../../img/icons/Star.svg" alt="star">
+                                    <img src="../../img/icons/Star.svg" alt="star">
+                                </div>
+                                <div class="card-bottom">
+                                    <div class="card-price"><span>$</span>392</div>
+                                    <button class="card-btn">
+                                        <img src="../../img/icons/plus.svg" alt="plusbtn">
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="button-prev">
+                    <img src="../../img/icons/grommet-icons_form-prev-link.svg" alt="">
+                </div>
+                <div class="button-next">
+                    <img src="../../img/icons/grommet-icons_form-next-link.svg" alt="">
+                </div>
+            </div>
+            <a href="#" class="viewAll">
+                View All
+                <img src="../../img/icons/grommet-icons_form-next-link-gold.svg" alt="arrow link">
+            </a>
+        </div>
+    </div>
+
+
+
+</section>
+	<footer class="footer">
+	<div class="footer-inner">
+		<div class="info-footer">
+			<div class="company">
+				<div class="company__title">Panto</div>
+				<div class="company__about">The advantage of hiring a workspace with us is that givees you comfortable
+					service and all-around facilities.</div>
+			</div>
+			<div class="another">
+				<div class="another-info">
+					<a href="#" class="f-title">Services</a>
+					<a href="#" class="f-links">Email Marketing</a>
+					<a href="#" class="f-links">Campaigns</a>
+					<a href="#" class="f-links">Branding</a>
+	
+				</div>
+				<div class="another-info">
+					<a href="#" class="f-title">Furniture</a>
+					<a href="#" class="f-links">Beds</a>
+					<a href="#" class="f-links">Chair</a>
+					<a href="#" class="f-links">All</a>
+				</div>
+			</div>
+		</div>
+		<div class="rights">
+			<div class="copyright">Copyright © 2021</div>
+			<div class="otherInfo">
+				<a class="otherInfo__item" href="#">Terms & Conditions</a>
+				<a class="otherInfo__item" href="#">Privacy Policy</a>
+			</div>
+		</div>
+	</div>
+</footer>
+
+
+	<script src="./js/index.bundle.js"></script>
+</body>
+
+</html>
